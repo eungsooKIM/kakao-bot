@@ -1,4 +1,3 @@
 # publicAPI-KAKAO
-
-![image](https://user-images.githubusercontent.com/109185297/197310234-20e42fa3-a0d1-482c-85cd-0049542bca8e.png)
-공공데이터API 구현과 카카오톡을 연동하여 카카오톡으로 받는 지하철역명에 대해 가장 가까운 열차정보를 반환
+카카오톡 상대의 요청을 인식하여 양식에 맞게 변환하여 알맞은 공공데이터API로 http요청한 뒤,
+반환되는 데이터를 자동으로 유저에게 출력하는 API 입니다.
