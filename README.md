@@ -6,27 +6,48 @@
 # Kakao-bot v1.1
 카카오봇은 카카오톡 메세지를 자동으로 인식한뒤, 메세지에 맞는 공공데이터를 호출,
 또는 크롤링하는 방식으로 적절한 답변을 만들어 자동로 응답하는 API입니다.
-## 📝 기능 목록
-
-### 1. 지하철 도착시간
-
-- 해당 역의 지하철 도착 정보를 반환합니다. 현 버전에서는 2호선, 4호선만 지원합니다. (ex: >>선릉역)
- 
-### 2. 한/영, 영/한 번역
-
--  해당 문장을 언어에 따라 한/영 또는 영/한으로 번역합니다. 언어는 문장에서 자동으로 감지합니다.
-(ex: @@안녕하세요 , @@hi)
-
-### 3. 환전
-
-- 해당 금액을 원/달러에 따라 달러/원으로 환전합니다. 환율은 실시간 환율을 따르며 금액 뒤에 원/달러를 붙여 요청합니다. 
-(ex: $$12.5달러 , $$12000원)
 
 
-### 4. 숫자 이야기
+### **작업 기간**
 
-- 해당 숫자와 관련된 이야기를 반환합니다. 자동으로 한국어로 번역되는 과정을 거칩니다. (ex: %%24)
+- 2022.11 ~ 2022. 12 (2주)
 
-### 5. ChatGPT 자동응답
+### **인력 구성**
 
-- Openai의 빅데이터 기반 머신러닝 검색사이트인 ChatGPT에 기반, 사용자의 질문 또는 요청에 자동으로 응답합니다. (ex: ??자바의 장점은 무엇인가요)
+- 1인 개발
+
+### **Link**
+
+<aside>
+
+<img src="https://super.so/icon/dark/github.svg" alt="https://super.so/icon/dark/github.svg" width="40px"/>
+
+
+[**me2.kr/XTBLB**](https://me2.kr/XTBLB)
+
+</aside>
+
+<aside>
+
+<img src="https://super.so/icon/dark/youtube.svg" alt="https://super.so/icon/dark/youtube.svg" width="40px"/>
+
+[**me2.kr/fpIxQ**](https://me2.kr/fpIxQ)
+
+</aside>
+
+### **프로젝트 소개**
+
+- 스마트폰의 메신저 채팅을 인식하는 ‘메신저 봇R’ 을 기반으로 사용자의 질문을 인식하고 자동으로 응답하는 “Kakao-bot” 프로젝트 입니다.
+
+### **기술 스택**
+
+- **Language** : Javascript, Typescript
+- **Back-end** : Node.js, Express, AWS(VPC,EC2),Axios,Fetch,Dock
+- **Database** : MariaDB,Typeorm
+- **Etc** : Git, Notion, MessengerbotR, Kakaotalk
+
+### **성과**
+
+- 여러 분야의 공공 데이터를 공식 Api 사용, 쿠키를 통한 웹 크롤링 등 다양한 방식으로 요청하고 응답하는 Api를 설계하였습니다.
+- 로컬 또는 웹 환경에서만 작동하던 기존 Api설계에서 모듈과 라이브러리를 사용하여 모바일 등 새로운 환경에서 구현하였습니다.
+- Chatgpt, Papago, Nobleai 등 빅 데이터 집약 기술을 체험 및 활용해 볼 수 있었습니다.
